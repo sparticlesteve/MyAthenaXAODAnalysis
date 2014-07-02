@@ -1,0 +1,8 @@
+cmt/*sh
+cmt/install.*
+cmt/*.cmt
+genConf/
+x86_64-slc6-gcc47-opt/
+run/Pool*
+run/eventLoopHeartBeat.txt
+run/*.pool.root
