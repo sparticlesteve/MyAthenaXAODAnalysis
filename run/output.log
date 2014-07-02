@@ -1,0 +1,257 @@
+Wed Jul  2 23:29:15 CEST 2014
+Preloading tcmalloc_minimal.so
+Py:Athena            INFO including file "AthenaCommon/Preparation.py"
+Py:Athena            INFO using release [AtlasProduction-19.0.2.1] [x86_64-slc6-gcc47-opt] [19.0.X.Y-VAL-Prod/rel_5] -- built on [2014-05-29 21:32]
+Py:Athena            INFO including file "AthenaCommon/Bootstrap.py"
+Py:Athena            INFO including file "AthenaCommon/Atlas.UnixStandardJob.py"
+Py:Athena            INFO including file "AthenaCommon/Execution.py"
+Py:Athena            INFO including file "myJobOptions.py"
+Py:ConfigurableDb    INFO Read module info for 4775 configurables from 21 genConfDb files
+Py:ConfigurableDb WARNING Found 2 duplicates among the 21 genConfDb files :
+Py:ConfigurableDb WARNING --------------------------------------------------
+Py:ConfigurableDb WARNING   -<component name>: <module> - [ <duplicates> ]
+Py:ConfigurableDb WARNING --------------------------------------------------
+Py:ConfigurableDb WARNING   -JetFilter: JetRec.JetRecConf - ['GeneratorFilters.GeneratorFiltersConf']
+Py:ConfigurableDb WARNING   -AdjT0__AdjustableT0Tool: MdtDriftCircleOnTrackCreator.MdtDriftCircleOnTrackCreatorConf - ['MboyEDMTool.MboyEDMToolConf']
+Py:ConfigurableDb WARNING Fix your cmt/requirements file !!
+Py:Athena            INFO including file "AthenaCommon/runbatch.py"
+ApplicationMgr       INFO Updating ROOT::Reflex::PluginService::SetDebug(level) to level=0
+ApplicationMgr    SUCCESS
+====================================================================================================================================
+                                                   Welcome to ApplicationMgr (GaudiCoreSvc v2r1)
+                                          running on lxplus0098.cern.ch on Wed Jul  2 23:29:27 2014
+====================================================================================================================================
+ApplicationMgr       INFO Successfully loaded modules : AthenaServices
+ApplicationMgr       INFO Application Manager Configured successfully
+ApplicationMgr       INFO Updating ROOT::Reflex::PluginService::SetDebug(level) to level=0
+StatusCodeSvc        INFO initialize
+AthDictLoaderSvc     INFO in initialize...
+AthDictLoaderSvc     INFO acquired Dso-registry
+ClassIDSvc           INFO Initializing ClassIDSvc - package version CLIDComps-00-06-11
+ClassIDSvc           INFO  getRegistryEntries: read 2089 CLIDRegistry entries for module ALL
+ChronoStatSvc        INFO  Number of skipped events for MemStat-1
+CoreDumpSvc          INFO install f-a-t-a-l handler... (flag = -1)
+CoreDumpSvc          INFO Handling signals: 11(Segmentation fault) 7(Bus error) 4(Illegal instruction) 8(Floating point exception)
+xAODMaker::Even...   INFO Initialising - Package version: xAODEventFormatCnv-00-00-02
+StoreGateSvc         INFO Initializing StoreGateSvc - package version StoreGate-02-41-10
+ProxyProviderSvc     INFO Initializing ProxyProviderSvc - package version SGComps-00-01-07
+MetaDataSvc          INFO Initializing MetaDataSvc - package version AthenaServices-01-57-36
+InputMetaDataStore   INFO Initializing InputMetaDataStore - package version StoreGate-02-41-10
+MetaDataStore        INFO Initializing MetaDataStore - package version StoreGate-02-41-10
+AthenaPoolCnvSvc     INFO Initializing AthenaPoolCnvSvc - package version AthenaPoolCnvSvc-00-26-07
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<bool>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<char>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<double>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<float>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<long>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<short>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-char>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-int>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-long>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.vector<unsigned-short>=vector.dll vectorbool.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.list<double>=list.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.list<float>=list.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.list<int>=list.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.list<long>=list.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.list<string>=list.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.map<string,double>=map.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.map<string,float>=map.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.map<string,int>=map.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.map<int,int>=map2.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.multimap<string,int>=multimap.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.set<double>=set.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.set<float>=set.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.set<int>=set.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.set<long>=set.dll> for level 0; ignored
+Warning in <TEnvRec::ChangeValue>: duplicate entry <Library.set<string>=set.dll> for level 0; ignored
+AthenaRootStrea...   INFO POOL/ROOT class loader initialized
+AthenaRootStrea...   INFO 9 ROOT streamers declared
+AthenaRootStrea...   INFO   - Streamer name:CLHEPVec3dStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepVector3D added converter for checksum = 358881035
+AthenaRootStrea...   INFO Adopted streamer for class HepVector3D
+AthenaRootStrea...   INFO   - Streamer name:CLHEPPoint3dStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepPoint3D added converter for checksum = 1634550480
+AthenaRootStrea...   INFO Adopted streamer for class HepPoint3D
+AthenaRootStrea...   INFO   - Streamer name:CLHEPRotationStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepRotation added converter for checksum = 4141898558
+AthenaRootStrea...   INFO Adopted streamer for class HepRotation
+AthenaRootStrea...   INFO   - Streamer name:CLHEPGenMatrixStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepGenMatrix added converter for checksum = 21721098
+AthenaRootStrea...   INFO Adopted streamer for class HepGenMatrix
+AthenaRootStrea...   INFO   - Streamer name:CLHEPMatrixStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepMatrix added converter for checksum = 3811046672
+AthenaRootStrea...   INFO Adopted streamer for class HepMatrix
+AthenaRootStrea...   INFO   - Streamer name:CLHEPLorVecStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepLorentzVector added converter for checksum = 3077056266
+AthenaRootStrea...   INFO Adopted streamer for class HepLorentzVector
+AthenaRootStrea...   INFO   - Streamer name:CLHEPTransform3DStreamer
+AthenaRootStrea...   INFO ROOT Streamer for HepTransform3D added converter for checksum = 520750269
+AthenaRootStrea...   INFO Adopted streamer for class HepTransform3D
+AthenaRootStrea...   INFO   - Streamer name:CLHEP3VectorStreamer
+AthenaRootStrea...   INFO ROOT Streamer for Hep3Vector added converter for checksum = 760000369
+AthenaRootStrea...   INFO Adopted streamer for class Hep3Vector
+AthenaRootStrea...   INFO   - Streamer name:CLHEPBasicVectorStreamer
+AthenaRootStrea...   INFO ROOT Streamer for BasicVector3D added converter for checksum = 2681080162
+AthenaRootStrea...   INFO Adopted streamer for class BasicVector3D
+PoolSvc              INFO Initializing PoolSvc - package version PoolSvc-00-22-10-02
+PoolSvc              INFO io_register[PoolSvc](xmlcatalog_file:PoolFileCatalog.xml) [ok]
+PoolSvc              INFO Set connectionsvc retry/timeout/IDLE timeout to  'ConnectionRetrialPeriod':300/ 'ConnectionRetrialTimeOut':3600/ 'ConnectionTimeOut':5 seconds with connection cleanup disabled
+PoolSvc              INFO Frontier compression level set to 5
+DBReplicaSvc         INFO Frontier server at (proxyurl=http://atlast0fsquid.cern.ch:3128)(proxyurl=http://atlassquid1.cern.ch:3128)(proxyurl=http://atlassquid2.cern.ch:3128)(serverurl=http://atlasfrontier.cern.ch:8000/atlr)(serverurl=http://atlasfrontier1.cern.ch:8000/atlr)(serverurl=http://atlasfrontier2.cern.ch:8000/atlr)(serverurl=http://ccsqfatlasli01.in2p3.fr:23128/ccin2p3-AtlasFrontier) will be considered for COOL data
+DBReplicaSvc         INFO Read replica configuration from /cvmfs/atlas.cern.ch/repo/sw/software/x86_64-slc6-gcc47-opt/19.0.2/AtlasCore/19.0.2/InstallArea/share/dbreplica.config
+DBReplicaSvc         INFO Total of 6 servers found for host lxplus0098.cern.ch [ATLF ATLAS_COOLPROD atlas_dd ATLF FZK LYON ]
+PoolSvc              INFO Successfully setup replica sorting algorithm
+PoolSvc              INFO Re-initializing PoolSvc
+PoolSvc              INFO POOL WriteCatalog is xmlcatalog_file:PoolFileCatalog.xml
+XMLFileCatalog Info Connecting to the catalog
+PoolXMLFileCatalog Info Xerces-c initialization Number 0
+EventSelector        INFO Initializing EventSelector - package version EventSelectorAthenaPool-00-18-29
+TagMetaDataStore     INFO Initializing TagMetaDataStore - package version StoreGate-02-41-10
+EventSelector        INFO reinitialization...
+EventSelector        INFO EventSelection with query
+PoolSvc           WARNING File is not in Catalog or does not exist.
+PoolSvc              INFO The 'svcMgr.PoolSvc.AttemptCatalogPatch = True;' jobOption
+PoolSvc              INFO will setup the job to ignore this misconfiguration.
+PoolSvc           WARNING Do not allow this ERROR to propagate to physics jobs.
+PoolSvc              INFO Failed to open container to check POOL collection - trying.
+DbSession Info     Open     DbSession
+Domain[ROOT_All] Info >   Access   DbDomain     READ      [ROOT_All]
+Domain[ROOT_All] Info ->  Access   DbDatabase   READ      [ROOT_All] DA293374-2927-2EA9-1AD1-8BC5291F3643
+Domain[ROOT_All] Info                           /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1
+JobIDSvc             INFO Initializing JobIDSvc - package version AthenaServices-01-57-36
+RootDBase.open Success /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 File version:53413
+/afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 Info Database being retired...
+Domain[ROOT_All] Info ->  Deaccess DbDatabase   READ      [ROOT_All] DA293374-2927-2EA9-1AD1-8BC5291F3643
+Domain[ROOT_All] Info >   Deaccess DbDomain     READ      [ROOT_All]
+DbSession Info     Open     DbSession
+Domain[ROOT_All] Info >   Access   DbDomain     READ      [ROOT_All]
+Domain[ROOT_All] Info ->  Access   DbDatabase   READ      [ROOT_All] 24EBB611-BDDF-9648-BBF3-11197D59C26F
+Domain[ROOT_All] Info                           /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1
+RootDBase.open Success /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 File version:53413
+ImplicitCollection Info Opened the implicit collection with connection string "PFN:/afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1"
+ImplicitCollection Info and a name "POOLContainer(DataHeader)"
+PoolSvc              INFO Failed to find container MetaDataHdrDataHeader to get Token.
+EventPersistenc...   INFO Added successfully Conversion service:AthenaPoolCnvSvc
+AthenaPoolAddre...   INFO Initializing AthenaPoolAddressProviderSvc - package version EventSelectorAthenaPool-00-18-29
+AthenaEventLoopMgr   INFO Initializing AthenaEventLoopMgr - package version AthenaServices-01-57-36
+AthMasterSeq         INFO Member list: AthSequencer/AthAlgSeq, AthSequencer/AthOutSeq, AthSequencer/AthRegSeq
+AthAlgSeq            INFO Member list: MyAthAnalysisAlg
+MyAthAnalysisAlg     INFO Initializing MyAthAnalysisAlg...
+ClassIDSvc           INFO  getRegistryEntries: read 8618 CLIDRegistry entries for module ALL
+DecisionSvc          INFO Inserting stream: MyXAODStream with no Algs
+ItemListSvc          INFO ItemListSvc initialize
+OutputStreamSeq...   INFO Initializing OutputStreamSequencerSvc - package version AthenaServices-01-57-36
+MyXAODStream.At...   INFO Initializing MyXAODStream.AthenaPoolOutputStreamTool - package version OutputStreamAthenaPool-00-02-69
+MyXAODStream.At...   INFO streamProperty ProcessingTag = MyXAODStream
+DetectorStore        INFO Initializing DetectorStore - package version StoreGate-02-41-10
+MyXAODStream.My...   INFO Initializing MyXAODStream.MyXAODStream_MakeEventStreamInfo - package version OutputStreamAthenaPool-00-02-69
+MyXAODStream         INFO Found HelperTools = PrivateToolHandleArray(['MakeEventStreamInfo/MyXAODStream_MakeEventStreamInfo'])
+MyXAODStream         INFO Data output: myXAOD.pool.root
+HistogramPersis...WARNING Histograms saving not required.
+AthenaEventLoopMgr   INFO Setup EventSelector service EventSelector
+ActiveStoreSvc       INFO Initializing ActiveStoreSvc - package version StoreGate-02-41-10
+ApplicationMgr       INFO Application Manager Initialized successfully
+InputMetaDataStore   INFO Start InputMetaDataStore
+MetaDataStore        INFO Start MetaDataStore
+TagMetaDataStore     INFO Start TagMetaDataStore
+/afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 Info Database being retired...
+Domain[ROOT_All] Info ->  Deaccess DbDatabase   READ      [ROOT_All] 24EBB611-BDDF-9648-BBF3-11197D59C26F
+Domain[ROOT_All] Info >   Deaccess DbDomain     READ      [ROOT_All]
+PoolSvc           WARNING File is not in Catalog or does not exist.
+PoolSvc              INFO The 'svcMgr.PoolSvc.AttemptCatalogPatch = True;' jobOption
+PoolSvc              INFO will setup the job to ignore this misconfiguration.
+PoolSvc           WARNING Do not allow this ERROR to propagate to physics jobs.
+PoolSvc              INFO Failed to open container to check POOL collection - trying.
+DbSession Info     Open     DbSession
+Domain[ROOT_All] Info >   Access   DbDomain     READ      [ROOT_All]
+Domain[ROOT_All] Info ->  Access   DbDatabase   READ      [ROOT_All] DA293374-2927-2EA9-1AD1-8BC5291F3643
+Domain[ROOT_All] Info                           /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1
+RootDBase.open Success /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 File version:53413
+/afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 Info Database being retired...
+Domain[ROOT_All] Info ->  Deaccess DbDatabase   READ      [ROOT_All] DA293374-2927-2EA9-1AD1-8BC5291F3643
+Domain[ROOT_All] Info >   Deaccess DbDomain     READ      [ROOT_All]
+DbSession Info     Open     DbSession
+Domain[ROOT_All] Info >   Access   DbDomain     READ      [ROOT_All]
+Domain[ROOT_All] Info ->  Access   DbDatabase   READ      [ROOT_All] 24EBB611-BDDF-9648-BBF3-11197D59C26F
+Domain[ROOT_All] Info                           /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1
+RootDBase.open Success /afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 File version:53413
+ImplicitCollection Info Opened the implicit collection with connection string "PFN:/afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1"
+ImplicitCollection Info and a name "POOLContainer(DataHeader)"
+StoreGateSvc         INFO Start StoreGateSvc
+DetectorStore        INFO Start DetectorStore
+ApplicationMgr       INFO Application Manager Started successfully
+PoolSvc              INFO Failed to find container MetaDataHdrDataHeader to get Token.
+AthenaEventLoopMgr   INFO   ===>>>  start of run 212272    <<<===
+AthenaEventLoopMgr   INFO   ===>>>  start processing event #36503, run #212272 0 events processed so far  <<<===
+MyAthAnalysisAlg     INFO   jet eta = 1.24986
+MyAthAnalysisAlg    FATAL  Standard std::exception is caught
+MyAthAnalysisAlg    ERROR Bad use of private store: store already exists
+AthAlgSeq           FATAL  Standard std::exception is caught
+AthAlgSeq           ERROR Bad use of private store: store already exists
+AthMasterSeq        FATAL  Standard std::exception is caught
+AthMasterSeq        ERROR Bad use of private store: store already exists
+Traceback (most recent call last):
+  File "/cvmfs/atlas.cern.ch/repo/sw/software/x86_64-slc6-gcc47-opt/19.0.2/AtlasCore/19.0.2/InstallArea/jobOptions/AthenaCommon/runbatch.py", line 11, in <module>
+    theApp.run()     # runs until theApp.EvtMax events reached
+  File "/cvmfs/atlas.cern.ch/repo/sw/software/x86_64-slc6-gcc47-opt/19.0.2/AtlasCore/19.0.2/InstallArea/python/AthenaCommon/AppMgr.py", line 626, in run
+    sc = self.getHandle()._evtpro.executeRun( nEvt )
+RuntimeError: (file "", line 0) Bad use of private store: store already exists (C++ exception)
+DetectorStore        INFO Stop DetectorStore
+StoreGateSvc         INFO Stop StoreGateSvc
+StoreGateSvc         INFO stop: setting service priority to 101 so that event stores get finalized and cleared before other stores
+ClassIDSvc           INFO  getRegistryEntries: read 338 CLIDRegistry entries for module ALL
+DbSession Info     Open     DbSession
+Domain[ROOT_All] Info >   Access   DbDomain     UPDATE    [ROOT_All]
+Domain[ROOT_All] Info ->  Access   DbDatabase   CREATE    [ROOT_All] C09F22B3-2167-6A46-96AA-47157E712D30
+Domain[ROOT_All] Info                           myXAOD.pool.root
+RootDBase.open Success myXAOD.pool.root File version:53413
+ClassIDSvc           INFO  getRegistryEntries: read 5 CLIDRegistry entries for module ALL
+MyXAODStream         INFO Records written: 1
+TagMetaDataStore     INFO Stop TagMetaDataStore
+/afs/cern.ch/atlas/project/PAT/xAODs/r5534/valid2.117050.PowhegPythia_P2011C_ttbar.digit.AOD.e2657_s1933_s1964_r5534/AOD.01482225._000107.pool.root.1 Info Database being retired...
+Domain[ROOT_All] Info ->  Deaccess DbDatabase   READ      [ROOT_All] 24EBB611-BDDF-9648-BBF3-11197D59C26F
+myXAOD.pool.root Info Database being retired...
+Domain[ROOT_All] Info ->  Deaccess DbDatabase   CREATE    [ROOT_All] C09F22B3-2167-6A46-96AA-47157E712D30
+Domain[ROOT_All] Info >   Deaccess DbDomain     UPDATE    [ROOT_All]
+MetaDataStore        INFO Stop MetaDataStore
+InputMetaDataStore   INFO Stop InputMetaDataStore
+ApplicationMgr       INFO Application Manager Stopped successfully
+MyAthAnalysisAlg     INFO Finalizing MyAthAnalysisAlg...
+AthAlgSeq            INFO Finalizing AthAlgSeq...
+AthOutSeq            INFO Finalizing AthOutSeq...
+AthRegSeq            INFO Finalizing AthRegSeq...
+AthMasterSeq         INFO Finalizing AthMasterSeq...
+StoreGateSvc         INFO Finalizing StoreGateSvc - package version StoreGate-02-41-10
+DetectorStore        INFO Finalizing DetectorStore - package version StoreGate-02-41-10
+ItemListSvc          INFO -- OUTPUT STREAM ITEM OVERLAP SUMMARY --
+ItemListSvc          INFO STREAM MyXAODStream has (8) items
+DecisionSvc          INFO -- OUTPUT STREAM EVENT OVERLAP SUMMARY --
+DecisionSvc          INFO List of registered 1 Streams: MyXAODStream
+DecisionSvc          INFO Finalized successfully.
+Domain[ROOT_All] Info >   Deaccess DbDomain     READ      [ROOT_All]
+TagMetaDataStore     INFO Finalizing TagMetaDataStore - package version StoreGate-02-41-10
+PoolSvc              INFO I/O finalization...
+PoolXMLFileCatalog Info XercesC termination number 0
+MetaDataStore        INFO Finalizing MetaDataStore - package version StoreGate-02-41-10
+InputMetaDataStore   INFO Finalizing InputMetaDataStore - package version StoreGate-02-41-10
+AthDictLoaderSvc     INFO in finalize...
+ToolSvc              INFO Removing all tools created by ToolSvc
+*****Chrono*****     INFO ****************************************************************************************************
+*****Chrono*****     INFO  The Final CPU consumption ( Chrono ) Table (ordered)
+*****Chrono*****     INFO ****************************************************************************************************
+AthenaSealSvc::...   INFO Time User   : Tot=   72 [ms] Ave/Min/Max=   36(+-    1)/   35/   37 [ms] #=  2
+AthenaSealSvc::...   INFO Time User   : Tot=   77 [ms] Ave/Min/Max= 6.42(+- 13.5)/    0/   38 [ms] #= 12
+AthenaSealSvc::...   INFO Time User   : Tot=   81 [ms]                                             #=  1
+ChronoStatSvc        INFO Time User   : Tot= 10.7  [s]                                             #=  1
+*****Chrono*****     INFO ****************************************************************************************************
+******Stat******     INFO ****************************************************************************************************
+******Stat******     INFO  The Final stat Table (ordered)
+******Stat******     INFO ****************************************************************************************************
+******Stat******     INFO      Counter     |     #     |    sum     | mean/eff^* | rms/err^*  |     min     |     max     |
+******Stat******     INFO  "*std::exceptio |         0 |          0 |     0.0000 |     0.0000 | 1.7977e+308 |-1.7977e+308 |
+******Stat******     INFO ****************************************************************************************************
+ChronoStatSvc.f...   INFO  Service finalized successfully
+ApplicationMgr       INFO Application Manager Finalized successfully
+ApplicationMgr       INFO Application Manager Terminated successfully
+Py:Athena            INFO leaving with code 64: "exception raised during an algorithm execute"
+CORAL/Services/ConnectionService Info Deleting the ConnectionPool
